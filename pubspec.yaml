@@ -1,0 +1,55 @@
+name: riverpod_infinite_scroll
+description: "A Riverpod Infinite Scroll Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  ansicolor: ^2.0.2
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  # flutter riverpod
+  flutter_riverpod: ^2.4.6
+  # data modeler( freezed generate )
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  # riverpod generator
+  riverpod_annotation: ^2.3.1
+  # others
+  bulleted_list: ^0.0.1+0.1a
+  number_paginator: ^0.4.0
+
+dev_dependencies:
+  # riverpod generator
+  build_runner: ^2.4.6
+  custom_lint: ^0.5.6
+  flutter_lints: ^3.0.1
+
+  flutter_test:
+    sdk: flutter
+
+  # data modeler( freezed generate )
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+  # riverpod generator
+  riverpod_generator: ^2.3.9
+  riverpod_lint: ^2.3.4
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
+  #   - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic

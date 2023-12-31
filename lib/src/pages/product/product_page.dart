@@ -59,6 +59,7 @@ class ProductPage extends ConsumerWidget {
                 width: double.infinity,
                 child: Image.network(product.thumbnail, fit: BoxFit.cover),
               ),
+              const SizedBox(height: 10.0),
             ],
           );
         },
